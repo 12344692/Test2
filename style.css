@@ -1,0 +1,300 @@
+body{
+    background-image: url(fond.jpg);
+}
+
+
+img{
+    border-radius: 50%;
+    margin-top: 140px;
+    margin-left: 200px;
+}
+.boite_photo{
+    overflow: hidden;
+    display: flex;
+    z-index: 10;
+    position: relative;
+	margin-left: 250px;
+    margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgb(0, 1, 8);
+	width: 1200px;
+	height:450px;
+	border-radius: 20px;
+}
+
+
+
+h1{
+    font-family: fantasy;
+    font-size: 50px;
+    color:#2563EB;
+    margin-left: 300px;
+    text-shadow: 15px 10px 20px rgb(92, 34, 126);
+    position: relative;
+    font-weight: bold;
+    background: linear-gradient(90deg,rgb(48, 160, 48));
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid green;
+    animation:
+    ecrire 5s steps(26) infinite,
+    clignote 0,7s infinite ;
+}
+@keyframes ecrire {
+     0%{width:0ch}
+     50%{width:22ch}
+     100%{width:0ch}
+}
+p{
+    font-family: fantasy;
+}
+.intro{
+    font-size: 30px;
+    font-family: fantasy;
+    margin-left: 300px;
+    margin-top: 130px;
+    color: rgb(77, 50, 230);
+}
+.blanc{
+    color: white;
+    margin-left: 250px;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.flex_contact{
+    display:flex;
+}
+
+.boitec{
+    background: #250d4e;
+    color:beige;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 70px;
+    width: 130px;
+    border:none;
+    text-decoration: none;
+    padding: 12px 25px;
+    cursor:pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 20px #7C3AED66;
+}
+li{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+}
+.fb{
+    margin: 0;
+}
+.contact{
+    color: antiquewhite;
+    margin-left: 60px;
+    font-family: fantasy;
+    margin-bottom: 0;
+}
+.introduction{
+ color: rgb(255, 255, 255);  
+ font-size: 30px; 
+ margin-left: 60px;
+ 
+ font-family: fantasy;
+
+}
+.contact{
+    font-family: fantasy;
+    font-size: 30px;
+}
+h2{
+    color:#2563EB;
+    font-family: fantasy;
+    font-size: 50px;
+    margin-top: 60px;
+    
+}
+.boitec:hover{
+    background-color:#7C3AED;
+    transform: scale(1.1);
+}
+ul{
+    text-decoration: none;
+}
+
+a{
+    color: rgb(226, 231, 233);
+    font-size: 20px;
+}
+.prog{
+    color:rgb(209, 86, 29);
+    border-radius: 20px;
+    height: 14px;
+    margin-right: 30px;
+}
+.prog1{
+    color:rgb(226, 162, 43);
+    border-radius: 20px;
+    height: 14px;
+    margin-right: 30px;
+}
+.prog2{
+    color:rgb(226, 43, 171);
+    border-radius: 20px;
+    height: 14px;
+    margin-right: 30px;
+}
+
+
+.prog3{
+    color:rgb(43, 226, 141);
+    border-radius: 20px;
+    height: 14px;
+}
+
+.comp{
+    color: rgb(209, 221, 214);
+    font-size: 40px;
+    margin-left: 40px;
+    font-family: fantasy;
+}
+.cont_comp{
+    display: flex;
+}
+h3{
+    color: #7C3AED;
+    font-size: 25px;
+    font-family: cambria;
+    margin-left: 120px;
+}
+.pers{
+    font-size: 30px;
+    font-family: fantasy;
+    color: aliceblue;
+    animation: appear linear;
+    animation-timeline: view();
+    
+}
+.pers1{
+    font-size: 30px;
+    font-family: fantasy;
+    color: aliceblue;
+    animation: appear linear;
+    animation-timeline: view();
+    
+}
+.h2_1{
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 4.5s;
+    
+}
+h3{
+     opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 4.5s;
+    
+}
+.h2_2{
+     opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 7s;
+    
+}
+.h2_3{
+     opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 8s;
+}
+.introduction{
+      opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 1.3s;
+}
+.boite_photo{
+       opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.6s;
+}
+.boite_contact{
+         opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.6s;
+}
+
+.cont_comp{
+         opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 4s;
+}
+.arduino{
+          opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 3.5s;
+}
+.pers{
+            opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 5s;
+}
+.pers1{
+             opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 9s;
+}
+
+
+@keyframes fadeIn {
+    from{
+        opacity:0;
+        transform:scale(0.5);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.boitecomp{
+    display: flex;
+}
+.perso{
+    display: flex;
+}
+
+.boite_photo::before{
+	content:'';
+	position: absolute;
+	width: 150%;
+	height: 150px;
+	background:linear-gradient(#00ccff,#d500f9);
+	animation: rotate 4s linear infinite;
+    z-index: -2;
+}
+
+.boite_photo::after{
+	content:'';
+	position: absolute;
+	background:rgb(0, 1, 8);
+	width: 1170px;
+	height: 425px;
+	border-radius: 15px;
+    z-index: -1;
+	
+}
+
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
