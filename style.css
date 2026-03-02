@@ -35,7 +35,7 @@ h1{
     text-shadow: 15px 10px 20px rgb(92, 34, 126);
     position: relative;
     font-weight: bold;
-    background: linear-gradient(90deg,rgb(48, 160, 48));
+    background: linear-gradient(90deg,rgb(0, 0, 0));
     width: 0ch;
     overflow: hidden;
     white-space: nowrap;
@@ -298,4 +298,5 @@ h3{
 	to{
 		transform: rotate(360deg);
 	}
+
 
